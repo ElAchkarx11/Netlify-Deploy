@@ -1,0 +1,62 @@
+
+.admin-container h1{
+  margin-bottom: 28px;
+}
+
+
+.list{
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(252, 248, 248, 0.38);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  justify-content: center;
+  padding: 14px 8px;
+}
+
+.list p{
+  margin-bottom: 8px;
+}
+
+.list button{
+  margin-right: 8px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+
+.calendario{
+  margin-bottom: 20px;
+}
+.bloco{
+  background-color: white;
+  width: 600px;
+
+}
+
+.btn-logout,
+.btn-game{
+  position: absolute;
+  bottom: 6%;
+  left: 4%;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border:0;
+  font-weight: bold;
+  background-color: rgba(219, 38, 41, 0.35);
+  color: #fafafa;
+  transition: all 0.5s;
+}
+
+.btn-game{
+  margin-bottom: 70px;
+}
+
+.btn-logout:hover,
+.btn-game:hover{
+  background-color: rgba(219, 38, 41, 1);
+  color: #FFF;
+}
